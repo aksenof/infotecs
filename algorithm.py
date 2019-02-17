@@ -1,4 +1,4 @@
-def factorization(n):
+def factorization(n):  # функция для разложения числа на простые множители
 	r = n
 	i = 2
 	result_list = []
