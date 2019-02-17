@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<title>Result</title>
+		<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+	</head>
+	<body>
+		<div>
+			Homepage:
+			<a href="/index">Factorization</a>
+		</div>
+		<hr>
+		<p>Your number: {{number}}<p>
+		<p>Result of factorization: {{result}}</p>
+	</body>
+</html>
