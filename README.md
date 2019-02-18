@@ -32,7 +32,9 @@ pip install wtforms
 3. Клонировать/скачать репозиторий infotecs, используя ssh/http/zip:
 
 ssh: git@github.com:aksenof/infotecs.git
+
 http: https://github.com/aksenof/infotecs.git
+
 zip: https://github.com//aksenof/infotecs/archive/master.zip
 
 4. Запустить сервер из коммандной строки:
