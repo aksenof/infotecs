@@ -26,7 +26,9 @@ python 3.7.2 (данная версия актуальна на 16.02.19)
 2. Для работы сервера нужно установить следующие библиотеки, используя pip:
 
 pip install flask
+
 pip install flask_wtf
+
 pip install wtforms
 
 3. Клонировать/скачать репозиторий infotecs, используя ssh/http/zip:
