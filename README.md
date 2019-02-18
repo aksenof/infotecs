@@ -14,3 +14,37 @@
 4.	Инструкция по запуску приложения.
 
 <b>Решение: </b>
+
+Инструкция:
+
+1. Необходимо скачать и установить последнюю версию python 3
+
+https://www.python.org
+
+python 3.7.2 (данная версия актуальна на 16.02.19)
+
+2. Для работы сервера нужно установить следующие библиотеки, используя pip:
+
+pip install flask
+pip install flask_wtf
+pip install wtforms
+
+3. Клонировать/скачать репозиторий infotecs, используя ssh/http/zip:
+
+ssh: git@github.com:aksenof/infotecs.git
+http: https://github.com/aksenof/infotecs.git
+zip: https://github.com//aksenof/infotecs/archive/master.zip
+
+4. Запустить сервер из коммандной строки:
+
+python 'путь к проекту'/server.py
+
+5. Открыть в браузере (желательно google chrome или opera) страницу:
+
+127.0.0.1:5000 или 127.0.0.1:5000/index
+
+ввести число в поле ввода и нажать кнопку ОК
+
+6. Откроется страница 127.0.0.1:5000/result/<введённое число>
+
+где будет результат разложения числа на простые множители
